@@ -102,6 +102,16 @@
 .nav-link {
   margin: 10px;
 }
+.nav-bar-btn-appointments {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  font-size: 22px;
+  color: rgb(85, 26, 139);
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 10px;
+}
 
 @keyframes App-logo-spin {
   from {
