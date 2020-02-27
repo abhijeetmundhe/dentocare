@@ -18,14 +18,89 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.app-title {
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 10px;
+}
+
+.Home-component {
+  background-color: beige;
+  height: 95vh;
+}
+.Home-right-section {
+  width: calc(25% - 10px);
+  height: 85vh;
+  float: right;
+}
+.Appointment-component {
+  background-color: gray;
+  height: 85vh;
+  width: 75%;
+  margin-left: 10px;
+  display: inline-block;
+  overflow: auto;
+}
+.Appointment-full-screen {
+  background-color: gray;
+  height: 85vh;
+  width: 100%;
+  display: inline-block;
+  overflow: auto;
+}
+.Appointment-row {
+  display: flex;
+  position: relative;
+  background-color: darkslategray;
+  border: 3px solid #73AD21;
+}
+.Apt-row-Date {
+  margin-left: 10px;
+  min-width: 115px;
+}
+.Apt-row-Name {
+  margin-left: 10px;
+  margin-right: 10px;
+  min-width: 250px;
+}
+.Apt-row-Open{
+  height: 40px;
+  margin: 10px;
+  position: absolute;
+  right: 0px;
+}
+
+.Apt-row-Work {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: left;
+  max-height: 80px;
+  overflow: auto;
+  font-size: 18px;
+}
+
+.Add-pat-btn {
+  height: 40px;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Open-pat-btn {
+  height: 30px;
+  float: right;
+  margin-right: 32px;
+  margin-top: 10px;
+}
+.navigation-bar {
+  background: aquamarine;
+}
+.nav-link {
+  margin: 10px;
 }
 
 @keyframes App-logo-spin {

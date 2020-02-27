@@ -1,0 +1,68 @@
+[{
+  "ID": 1,
+  "Name": "Pat1",
+  "Age": 32,
+  "Sex": "Male",
+  "Phone": "9890557272",
+  "TotalPayableAmount": 3000,
+  "Medical": {
+    "MedicalHistory": "Temp Medical History",
+    "CO": "Temp compliant of",
+    "OE": "Temp On examination",
+    "OEGrandTotalEstimate": 25000
+  },
+  "Appointments": [{
+    "AptNum": 1,
+    "AptDate": "21-02-2020",
+    "AptTime": "18:00",
+    "WorkDone": "work done today",
+    "PaymentReceived": 2000,
+    "NextAptDate": "23-02-2020",
+    "NextAptTime": "18:30",
+    "NextWorkToBeDone": "work to be done In next appt"
+  },
+    {
+      "AptNum": 2,
+      "AptDate": "23-02-2020",
+      "AptTime": "18:30",
+      "WorkDone": "work done on second apt",
+      "PaymentReceived": 1000,
+      "NextAptDate": "",
+      "NextAptTime": "",
+      "NextWorkToBeDone": "work to be done In future (if any)"
+    }]
+},
+  {
+    "ID": 2,
+    "Name": "Pat2",
+    "Age": 22,
+    "Sex": "Female",
+    "Phone": "9028614461",
+    "TotalPayableAmount": 5000,
+    "Medical": {
+      "MedicalHistory": "Temp2 Medical History",
+      "CO": "Temp2 compliant of",
+      "OE": "Temp2 On examination",
+      "OEGrandTotalEstimate": 15000
+    },
+    "Appointments": [{
+      "AptNum": 1,
+      "AptDate": "26-02-2020",
+      "AptTime": "19:00",
+      "WorkDone": "work2 done today",
+      "PaymentReceived": 2000,
+      "NextAptDate": "23-02-2020",
+      "NextAptTime": "18:30",
+      "NextWorkToBeDone": "work2 to be done In next appt"
+    },
+      {
+        "AptNum": 2,
+        "AptDate": "29-02-2020",
+        "AptTime": "18:30",
+        "WorkDone": "work2 done on second apt",
+        "PaymentReceived": 1000,
+        "NextAptDate": "03-03-2020",
+        "NextAptTime": "19:30",
+        "NextWorkToBeDone": "work2 to be done In next apt"
+      }]
+  }]
