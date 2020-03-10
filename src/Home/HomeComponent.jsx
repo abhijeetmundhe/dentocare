@@ -8,7 +8,7 @@ class HomeComponent extends React.Component {
     render() {
         return (<div className='Home-component'>
             <header className="app-title">
-                Welcome to DENTOCARE App with Dhrumil..
+                Welcome to DENTOCARE App
             </header>
             <AppointmentComponent {...this.props} />
             <div className='Home-right-section'>

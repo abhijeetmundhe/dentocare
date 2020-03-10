@@ -5,10 +5,9 @@ class AppointmentComponent extends React.Component {
 
     render() {
         return (<div className='Appointment-component'> Appointment COMPONENT
-            <p> sample data = {this.props.coreData[0].Name}</p>
             {this.props.coreData.map(patientData =>
                 patientData.Appointments.map(appointment =>
-                    <AppointmentRowComponent patData={patientData} apntData={appointment}/>)
+                    <AppointmentRowComponent key={patientData.ID+appointment.AptNum}patData={patientData} apntData={appointment}/>)
             )}
 
         </div>);
