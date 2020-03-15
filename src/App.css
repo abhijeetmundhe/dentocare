@@ -112,7 +112,16 @@
   cursor: pointer;
   margin-left: 10px;
 }
+.patients-detail-parent {
+  background: #ffffff;
+}
 
+.Collapsible__trigger {
+  display: block;
+  background: #d8d8d5;
+  color: black;
+  border-bottom: solid 1px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
