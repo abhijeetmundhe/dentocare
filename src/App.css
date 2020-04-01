@@ -57,16 +57,26 @@
   display: flex;
   position: relative;
   background-color: darkslategray;
-  border: 3px solid #73AD21;
+  border: 2px solid #73AD21;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 .Apt-row-Date {
   margin-left: 10px;
   min-width: 115px;
+  font-size: 20px;
+  width: 175px;
 }
 .Apt-row-Name {
-  margin-left: 10px;
+  margin-left: 40px;
   margin-right: 10px;
-  min-width: 250px;
+  min-width: 230px;
+  font-size: 21px;
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 230px;
+  white-space: nowrap;
 }
 .Apt-row-Open{
   height: 40px;
@@ -79,9 +89,10 @@
   margin-left: 10px;
   margin-right: 10px;
   text-align: left;
-  max-height: 80px;
   overflow: auto;
-  font-size: 18px;
+  font-size: 17px;
+  width: 460px;
+  height: 56px
 }
 
 .Add-pat-btn {

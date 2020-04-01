@@ -1,13 +1,13 @@
-import React from "react";
-import AppointmentComponent from "../Appointment/AppointmentComponent";
-import SearchAutoCompleteComponent from "./SearchAutoCompleteComponent";
+import React from 'react';
+import AppointmentComponent from '../Appointment/AppointmentComponent';
+import SearchAutoCompleteComponent from './SearchAutoCompleteComponent';
 import AppHistory from '../App/AppHistory';
 
 class HomeComponent extends React.Component {
 
     render() {
         return (<div className='Home-component'>
-            <header className="app-title">
+            <header className='app-title'>
                 Welcome to DENTOCARE App
             </header>
             <AppointmentComponent {...this.props} />

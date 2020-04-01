@@ -33,8 +33,8 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
+      <div className='App'>
+        <header className='App-header'>
           <AppNavigation />
           <AppRouter data={this.state.data} />
         </header>

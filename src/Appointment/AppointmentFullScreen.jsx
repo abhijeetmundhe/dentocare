@@ -1,5 +1,5 @@
-import React from "react";
-import AppointmentRowComponent from "./AppointmentRowComponent";
+import React from 'react';
+import AppointmentRowComponent from './AppointmentRowComponent';
 
 class AppointmentFullScreen extends React.Component {
 

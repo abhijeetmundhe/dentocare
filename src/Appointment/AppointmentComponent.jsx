@@ -1,5 +1,5 @@
-import React from "react";
-import AppointmentRowComponent from "./AppointmentRowComponent";
+import React from 'react';
+import AppointmentRowComponent from './AppointmentRowComponent';
 
 class AppointmentComponent extends React.Component {
 
@@ -7,7 +7,7 @@ class AppointmentComponent extends React.Component {
         return (<div className='Appointment-component'> Appointment COMPONENT
             {this.props.coreData.map(patientData =>
                 patientData.Appointments.map(appointment =>
-                    <AppointmentRowComponent key={patientData.ID+appointment.AptNum}patData={patientData} apntData={appointment}/>)
+                    <AppointmentRowComponent key={patientData.id+appointment.AptNum}patData={patientData} apntData={appointment}/>)
             )}
 
         </div>);
